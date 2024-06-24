@@ -46,13 +46,34 @@
             gap: 20px;
 
             .photoItem{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                    background-color: rgba(17, 25, 40, 8.3);
+                    padding: 10px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
 
                 .photoDetails{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
                     img{
                         height: 40px;
                         width: 40px;
                         object-fit: cover;
+                        border-radius: 5px;
 
+                        span{ 
+                            font-size: 14px;
+                            color: lightgray;
+                            font-weight: 300;
+                        }
                     }
                 }
             }
