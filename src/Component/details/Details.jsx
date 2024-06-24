@@ -27,10 +27,22 @@ const Details = () => {
             <span>Shared Photos</span>
             <img src="/arrowDown.png" alt="" />
           </div>
-          <div className="photoItem">
+            <div className="photos">
+            <div className="photoItem">
+            <div className="photoDetails">
             <img src="/whatitcost.png" alt="" />
             <span>photo_2024_2.png</span>
+            </div>
+            <div className="photoDetails">
+            <img src="/whatitcost.png" alt="" />
+            <span>photo_2024_2.png</span>
+            </div>
+            <div className="photoDetails">
+            <img src="/whatitcost.png" alt="" />
+            <span>photo_2024_2.png</span>
+            </div>
           </div>
+            </div>
           <img src="/download.png" alt="" />
         </div>
         <div className="option">
