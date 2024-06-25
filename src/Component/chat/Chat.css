@@ -61,7 +61,7 @@
         flex:1;
         display: flex;
         flex-direction: column;
-        overflow: scroll;
+        overflow-y: scroll;
         gap: 20px;
 
         .message{
@@ -108,6 +108,10 @@
         }
         
     }
+
+    .center::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+    }
     .botton{
         padding: 20px;
         display: flex;
@@ -135,13 +139,18 @@
             border: none;
             outline: none;
             color: white;
-            padding: 20px;
+            padding: 10px;
             border-radius: 10px;
             font-size: 16px;
         }
 
         .emoji{
             position: relative;
+            img{
+                width: 20px;
+                height: 20px;
+                cursor: pointer;
+            }
 
             .picker{
                 position: absolute;

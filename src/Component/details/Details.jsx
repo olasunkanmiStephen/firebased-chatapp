@@ -33,7 +33,7 @@ const Details = () => {
                 <img src="/whatitcost.png" alt="" />
                 <span>photo_2024_2.png</span>
               </div>
-              <img src="/d.png" alt="" />
+              <img src="/download.png" alt="" />
             </div>
           </div>
           <div className="photos">
@@ -70,6 +70,8 @@ const Details = () => {
             <img src="/arrowUp.png" alt="" />
           </div>
         </div>
+        <button>Block User</button>
+        <button className="logout">Logout</button>
       </div>
     </div>
   );
